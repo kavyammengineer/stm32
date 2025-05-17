@@ -7,5 +7,5 @@ My eth-ip file code works for some time, but I am not sure why it works. Initial
 
 Since this MCU has two cores, I suggest removing CM4 from memory assignment initially, because CM7 handles Ethernet functionality with higher performance. Assign the RAM2 address for Ethernet, and use the remaining memory in RAM2 for lwIP.
 
-(This was my suggestion) 
+(This is my suggestion) 
 
