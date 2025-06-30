@@ -10,7 +10,7 @@ Since this MCU has two cores, I suggest removing CM4 from memory assignment init
 (This is my suggestion) 
 
 
-2..GccApplication1
+2..GccApplication1(atmel328p  mcu)
   This AVR code reads RMS current from 8 differential current sensor channels using two MCP3208 ADCs over SPI, calculates the current values, stores them in a buffer, and shares them with an I2C master using a dynamically assigned I2C slave address; it also supports command-based I2C interrupt-driven communication and prints debug data over USART.
 
 
